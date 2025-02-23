@@ -8,7 +8,7 @@ export default function Home() {
         <section className={styles.navSection}>
           <div className="logo">
             <Image
-            src="./logo.png"
+            src="/logo.png"
             width={220}
             height={36}
             alt="Logo Positivus"
@@ -39,7 +39,7 @@ export default function Home() {
             </h1>
             <div className={styles.illustration}>
           <Image
-            src="./illustration.png"
+            src="/illustration.png"
             width={601}
             height={515}
             alt="Logo Positivus"
