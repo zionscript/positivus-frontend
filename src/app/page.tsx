@@ -5,90 +5,74 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
+        <section className={styles.navSection}>
+          <div className="logo">
+            <Image
+            src="/logo.png"
+            width={220}
+            height={36}
+            alt="Logo Positivus"
+            />
+          </div>
+          <ul>
+            <li>About us</li>
+            <li>Services</li>
+            <li>Use Cases</li>
+            <li>Pricing</li>
+            <li>Blog</li>
+            <div className={styles.ctas}>
           <a
-            className={styles.primary}
+            className={styles.quote}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
+            Request a quote
           </a>
         </div>
+          </ul>
+        </section>
+        <section className={styles.contentSection}>
+          <div className={styles.hero}>
+            <h1>
+              Navigating the digital landscape for success
+            </h1>
+            <div className={styles.illustration}>
+          <Image
+            src="/illustration.png"
+            width={601}
+            height={515}
+            alt="Logo Positivus"
+            />
+          </div>
+            <p style={{marginBottom:30}}>Our digital marketing agency helps businesses 
+              grow and succeed online through a range of 
+              services including SEO, PPC, social media marketing, 
+              and content creation.</p>
+              <div className={styles.ctas}>
+          <a
+            className={styles.quote}
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book a consultation
+          </a>
+        </div>
+          </div>
+
+        </section>
       </main>
+          <div className={styles.logotypes}>
+            <Image
+            src="/logotypes.png"
+            width={1440}
+            height={48}
+            alt="Logos Parceiros"
+            />
+          </div>
       <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+        <p>Mantido por &copy;Yuri Oliveira</p>
       </footer>
     </div>
   );
