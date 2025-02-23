@@ -39,8 +39,8 @@ export default function Home() {
             </h1>
             <div className={styles.illustration}>
           <Image
-            src={"/illustration.png"}
-            alt="Ilustração"
+            src={"/marketing.png"}
+            alt="Ilustração do marketing"
             width={601}
             height={515}
             />
