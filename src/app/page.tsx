@@ -40,7 +40,7 @@ export default function Home() {
             <div className={styles.illustration}>
           <Image
             src={"/illustration.png"}
-            alt="Logo Positivus"
+            alt="Ilustração"
             width={601}
             height={515}
             />
