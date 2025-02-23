@@ -8,10 +8,10 @@ export default function Home() {
         <section className={styles.navSection}>
           <div className="logo">
             <Image
-            src="/logo.png"
+            src={"/logo.png"}
+            alt="Logo Positivus"
             width={220}
             height={36}
-            alt="Logo Positivus"
             />
           </div>
           <ul>
@@ -39,10 +39,10 @@ export default function Home() {
             </h1>
             <div className={styles.illustration}>
           <Image
-            src="/illustration.png"
+            src={"/illustration.png"}
+            alt="Logo Positivus"
             width={601}
             height={515}
-            alt="Logo Positivus"
             />
           </div>
             <p style={{marginBottom:30}}>Our digital marketing agency helps businesses 
@@ -65,10 +65,10 @@ export default function Home() {
       </main>
           <div className={styles.logotypes}>
             <Image
-            src="/logotypes.png"
+            src={"/logotypes.png"}
+            alt="Logos Parceiros"
             width={1440}
             height={48}
-            alt="Logos Parceiros"
             />
           </div>
       <footer className={styles.footer}>
